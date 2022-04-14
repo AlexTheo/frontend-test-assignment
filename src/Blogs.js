@@ -1,5 +1,6 @@
 import { Divider, ToggleButton, ToggleButtonGroup, Typography } from "@mui/material";
 import { useState } from "react";
+import BlogCards from "./BlogCards";
 
 import "./Blogs.scss";
 
@@ -27,7 +28,7 @@ function Blogs() {
         </header>
         <Divider variant="fullWidth"></Divider>
         <section className="blogs">
-            Blogs go here!
+            <BlogCards/>
         </section>
     </>);
 }
